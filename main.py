@@ -17,6 +17,7 @@ class ItemResponse(BaseModel):
     total_price: float
     qty: int
     total_qty: int
+    date: str
 
 @app.get("/")
 def read_root():
